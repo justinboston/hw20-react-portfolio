@@ -1,5 +1,7 @@
 # React Challenge: React Portfolio
 
+*** WIP ***
+
 ## Description
 
 This is a React portfolio that I created for my React Challenge. It is a single page application that serves as an endpoint to share my work with fellow developers to showcase my previous experience.
