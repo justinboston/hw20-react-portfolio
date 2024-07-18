@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import Portrait from "../../assets/images/profile_pic.jpg";
 
-function Home() {
+
+function Homepage() {
   return (
     <section className="home my-5">
       <div className="title">
-        <h2>Hi, I'm Kara</h2>
-        <p>Welcome to my Student Portfolio!</p>
+        <h2>JUSTIN BOSTON</h2>
+        <p>This is my portfolio</p>
         <Link to="portfolio">
           <button>View my Projects</button>
         </Link>
@@ -22,4 +22,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Homepage;

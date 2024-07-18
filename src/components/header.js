@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom"
-import NavBar from "../NavBar";
+import NavBar from "./nav";
 
 function Header() {
 
@@ -8,7 +8,7 @@ function Header() {
     <header className="flex-row px-1">
       <div className="logo">
         <h1>
-        <Link to="/">Kara Krzystan</Link>
+        <Link to="/">Justin Boston</Link>
         </h1>
       </div>
       <NavBar></NavBar>
