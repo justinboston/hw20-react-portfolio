@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://justinboston.github.io/hw20-react-portfolio/",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.7.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-bootstrap": "^1.5.2",
@@ -14,19 +14,7 @@
     "react-icons": "^4.2.0",
     "react-router-dom": "^6.23.1",
     "react-scripts": "^3.0.1",
-    "web-vitals": "^2.1.4",
-    "workbox-background-sync": "^5.1.4",
-    "workbox-broadcast-update": "^5.1.4",
-    "workbox-cacheable-response": "^5.1.4",
-    "workbox-core": "^5.1.4",
-    "workbox-expiration": "^5.1.4",
-    "workbox-google-analytics": "^5.1.4",
-    "workbox-navigation-preload": "^5.1.4",
-    "workbox-precaching": "^5.1.4",
-    "workbox-range-requests": "^5.1.4",
-    "workbox-routing": "^5.1.4",
-    "workbox-strategies": "^5.1.4",
-    "workbox-streams": "^5.1.4"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
