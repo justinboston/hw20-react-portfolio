@@ -9,7 +9,7 @@ function NavBar() {
           <Link to="/about">About Me</Link>
         </li>
         <li className="mx-2">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolio">Projects</Link>
         </li>
         <li className="mx-2">
           <Link to="/contact">Contact</Link>
@@ -19,4 +19,4 @@ function NavBar() {
   );
 }
 
-export default Projects;
+export default NavBar;
