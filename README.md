@@ -46,7 +46,7 @@ https://justinboston.github.io/hw20-react-portfolio/
 
 ## Screenshot
 
-![screenshot](src/assets/images/20-react-homework-demo-01.gif)
+![screenshot](public/20-react-homework-demo-01.gif)
 
 
 ## Liscense
