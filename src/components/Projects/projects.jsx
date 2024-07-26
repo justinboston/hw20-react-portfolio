@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 function Projects() {
   return (
     <><div className="flex-row">
-      <h3 className="section-title">Work</h3>
     </div><div className="portfolio-container">
         <div className="portfolio-grid">
           <a href="https://justinboston.github.io/prework-study-guide/" target="_blank" className="prework-study-guide">
