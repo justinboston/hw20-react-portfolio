@@ -14,7 +14,7 @@ function Home() {
       </div>
       <div className="portrait">
         <img
-          src="./assets/justinboston.png"
+          src="src/assets/justinboston.png"
           alt="self portrait"
         />
       </div>
