@@ -6,14 +6,19 @@ function Projects() {
     <><div className="flex-row">
     </div><div className="portfolio-container">
         <div className="portfolio-grid">
-          <a href="https://justinboston.github.io/prework-study-guide/" target="_blank" className="prework-study-guide">
+        <a href="https://justinboston.github.io/hw6-weather-dashboard/" target="_blank" className="prework-study-guide">
             <div className="project-label">
-              <h3>Prework Study Guide</h3>
+              <h3>Weather Dashboard</h3>
             </div>
           </a>
-          <a href="https://justinboston.github.io/hw1/" target="_blank" className="hw1">
+          <a href="https://dine-reserve.onrender.com/" target="_blank" className="prework-study-guide">
             <div className="project-label">
-              <h3>Horiseon Landing Page</h3>
+              <h3>Dine Reserve</h3>
+            </div>
+          </a>
+          <a href="https://lets-hang-e9ek.onrender.com/" target="_blank" className="hw1">
+            <div className="project-label">
+              <h3>Let's Hang</h3>
             </div>
           </a>
           <a href="https://justinboston.github.io/hw2-portfolio/" target="_blank" className="student-portfolio">
