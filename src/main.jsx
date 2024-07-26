@@ -1,14 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
-import "/src/index.css";
+import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
-
-
-import { About } from "./components/about.jsx";
-import { Home } from "./components/home.jsx";
-import { Resume } from "./components/resume.jsx";
-import { Projects } from "./components/projects.jsx";
+import { About } from "./components/About/about";
+import { Home } from "./components/Home/home";
+import { Resume } from "./components/Resume/resume";
+import { Projects } from "./components/Projects/projects";
 
 const router = createBrowserRouter([
   {
@@ -17,19 +15,19 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <About />
+        element: <Home/>
       },
       {
-        path: "/home",
-        element: <Home />
+        path: "/about",
+        element: <About/>
       },
       {
         path: "/resume",
-        element: <Resume />
+        element: <Resume/>
       },
       {
         path: "/projects",
-        element: <Projects />
+        element: <Projects/>
       },
     ]
   }
