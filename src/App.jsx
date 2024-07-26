@@ -1,17 +1,17 @@
-import { Outlet } from "react-router-dom";
-import { Navbar } from "./components/Nav/nav";
-import Footer from "./components/Footer/footer"; 
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Nav from './components/Nav/nav';
+import Footer from './components/Footer/footer'; 
+import styles from './app.module.css'; 
 
 function App() {
   return (
     <div className={styles.App}>
-      <Navbar />
-      
+      <Nav />
       <Outlet />
-
       <Footer />
     </div>
-  );h 
+  );
 }
 
 export default App;
